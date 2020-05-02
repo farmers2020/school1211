@@ -1,0 +1,120 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+           <script src="{% static 'js/simple.js' %}" type="text/javascript"></script>
+          <link href="{% static 'css/image.css'  %}" rel="stylesheet">
+          <style>
+              @font-face
+              {
+                  font-family: demo1;
+                  src:url("{% static 'fonts/Sweet Hipster.ttf' %}");
+              }
+              h1
+              {
+                  font-family: demo1;
+                  font-size: 200px;
+                  color:deeppink;
+                  text-shadow:1px 2px 5px navy;
+              }
+
+          </style>
+          <!-- Required meta tags -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>add students</title>
+  </head>
+  <body style="background:lightblue">
+    <div class="card bg-dark text-white">
+  <img src="{% static 'images/students.jpg' %}" width="100%" height="500" >
+  <div class="card-img-overlay">
+    <h1  align="center" class="card-title" style="color:yellow">STUDENTS REGISTRATION</h1>
+  </div>
+</div>
+    <fieldset>
+    <form action="{% url 'save' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+    <table border="0"  align="center" cellpadding="10" style="border-radius:10px;background:tomato" >
+        <tr>
+            <th><h1 style="color:black">STUDENTS REGISTRATION</h1></th>
+        </tr>
+        <tr>
+            <th>Name:<input type="text" placeholder="name" required name="name"></th>
+        </tr>
+        <tr>
+            <th>Father Name:<input type="text" placeholder="father name" required name="father"></th>
+        </tr>
+        <tr><th>Register no:<input type="number" required placeholder="Regno" name="regno"></th></tr>
+        <tr>
+            <th>
+                Gender:<input type="radio" name="ra" value="male">Male
+                <input type="radio" name="ra" value="female">Female
+            </th>
+        </tr>
+        <tr>
+            <th>Address :<textarea placeholder="address" required name="add"></textarea> </th>
+        </tr>
+        <tr>
+            <th>standard:<input type="number" placeholder=" standard" required name="std"></th>
+        </tr>
+        <tr>
+            <th>Dob:<input type="date" required placeholder="date" name="dob"></th>
+        </tr>
+        <tr>
+            <th>Date of join:<input type="date" placeholder="date of join" required name="doj"></th>
+        </tr>
+        <tr>
+            <th>photo<input type="file" required placeholder="photo" name="photo"></th>
+        </tr>
+        <tr>
+            <th>english:<input type="text" placeholder="english" required name="e1" id="e"></th>
+        </tr>
+        <tr>
+            <th>kannad:<input type="text" placeholder="kannad" required name="k1" id="k"></th>
+        </tr>
+        <tr>
+            <th>hindi:<input type="text" placeholder="hindi" required name="h1" id="h"></th>
+        </tr>
+        <tr>
+            <th>science:<input type="text" placeholder="science" required name="s1" id="s"></th>
+        </tr>
+        <tr>
+            <th>social science:<input type="text" placeholder="social science" required name="ss1" id="ss"></th>
+        </tr>
+        <tr>
+            <th>mathematics:<input type="text" placeholder="mathematics" required name="m1" id="m"></th>
+        </tr>
+        <tr>
+            <th>total marks:<span id="t"></span>
+                <input type="text" placeholder="total marks" required name="t1">
+                <input type="button" onclick="f1()" value="total"></th>
+
+        </tr>
+        <tr>
+            <th>percentage:<span id="p"></span>
+                <input type="text" placeholder="percentage" required name="p1">
+            <input type="button" onclick="f2()" value="percentage"></th>
+        </tr>
+        <tr>
+            <td align="center">
+                <button type="submit">save</button>
+            </td>
+        </tr>
+    </table>
+        {% if message %}
+           <h2>{{ message }}</h2>
+        {% endif %}
+        </form>
+        </fieldset>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

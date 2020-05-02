@@ -1,0 +1,144 @@
+
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+<link href="{% static 'css/image.css'  %}" rel="stylesheet">
+      <style>
+        @font-face
+        {
+            font-family: demo1;
+            src:url("{% static 'fonts/Sweet Hipster.ttf' %}");
+        }
+        h1
+        {
+            font-family: demo1;
+            font-size: 200px;
+            color:deeppink;
+            text-shadow:1px 2px 5px navy;
+        }
+
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>update students records</title>
+  </head>
+  <body>
+  <div class="card bg-dark text-white">
+  <img src="{%  static 'images/updateimages.jpg' %}" width="100%" height="1200" >
+  <div class="card-img-overlay">
+      {% include 'adminhead.html' %}
+      {% include 'facultmenu.html' %}
+   <form action="{% url 'save1' %}" method="post" enctype="multipart/form-data">
+       {% csrf_token %}
+      <table align="center" border="2" cellspacing="10" cellpadding="10" style="border-radius: 10px;background: white" >
+          <tr bgcolor="orange">
+              <th style="text-align: center" colspan="2">students update page</th>
+          </tr>
+      <tr>
+          <th align="center" style="color:black">
+           STUDENT NAME: </th><th><input type="text" value="{{ data.name }}"name="name">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              FATHER NAME:</th><th><input type="text" value="{{ data.father }}"name="father">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              REGISTER NO:</th><th><input type="number" readonly value="{{ data.Regno }}"name="regno">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              GENDER:</th><th><input type="text" value="{{ data.gender }}"name="ra">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              ADDRESS:</th><th><textarea value="{{ data.address }}"name="add"></textarea>
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              DATE OF BIRTH:</th><th><input type="date" value="{{ data.dob }}"name="dob">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              DATE OF JOINING:</th><th><input type="date" value="{{ data.doj }}"name="doj">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              STANDARD:</th><th><input type="number" value="{{ data.standards }}"name="std">
+          </th>
+      </tr>
+      <tr>
+          <th align="center" style="color:black">
+              IMAGES:</th><th><input type="file" value="{{ data.image }}"name="photo">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              ENGLISH:</th><th><input type="text" value="{{ data.english }}"name="e1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              KANNADA:</th><th><input type="text" value="{{ data.kannad }}"name="k1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              HINDI:</th><th><input type="text" value="{{ data.hindi }}"name="h1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              SCIENCE:</th><th><input type="text" value="{{ data.science }}"name="s1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              SOCIAL SCIENCE:</th><th><input type="text" value="{{ data.social_science }}"name="ss1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              MATHEMATICS:</th><th><input type="text" value="{{ data.mathematics }}"name="m1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              TOTAL MARKS:</th><th><input type="text" value="{{ data.totalmarks }}"name="t1">
+          </th>
+      </tr>
+            <tr>
+          <th align="center" style="color:black">
+              PERCENTAGE:</th><th><input type="text" value="{{ data.percentage }}"name="p1">
+          </th>
+      </tr>
+           <tr>
+          <td align="center" style="color:black" colspan="2">
+            <button type="submit" >save</button>
+          </td>
+      </tr>
+   </table>
+       </form>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

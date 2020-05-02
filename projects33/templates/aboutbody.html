@@ -1,0 +1,75 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title> photos Gallery</title>
+  </head>
+  <body>
+ </table>
+   <div class="card bg-dark text-white">
+  <img src="{% static 'images/bys1.jpg' %}" class="card-img" width="100%" height="700">
+  <div class="card-img-overlay">
+      <h1 style="text-align: center;color: black">Contact us</h1>
+      <table>
+          <tr>
+              <th bgcolor="#fdf5e6" style="color: black;text-align: center;border-radius: 50px 50px">
+                  <img src="{% static 'images/gps.png'%}" width="40" height="40"><h1>Address</h1>
+                      <pre>
+                      <h5>Shri Channabasaveshwar Gurukul Po.Khandal,
+                      Tq. Basavakalyan, Dist. Bidar Karnataka-585413</h5> </pre>
+              </th>
+              <th>       fsffsghshsjjsk</th>
+                        <th width="300" bgcolor="white" style="color: black;text-align:center;border-radius: 30px 30px">
+                  <img src="{% static 'images/gmail.png'%}" width="40" height="40">Email
+                      <pre>
+                      <h5>
+gurukul.educampus@gmail.com cbgpuc@gmail.com</h5> </pre>
+              </th>
+          </tr>
+          <tr>
+          <th></th>
+
+          </tr>
+      </table>
+      <br><br>
+      <form action="{% url 'savefed' %}" method="post">
+          {% csrf_token %}
+
+      <table bgcolor="orange" cellpadding="10" cellspacing="10" align="center">
+          <tr>
+              <th style="text-align: center">Students Feedback</th>
+          </tr>
+          <tr>
+              <th> <input type="text" placeholder="name" required name="n1"></th>
+          </tr>
+           <tr>
+              <th> <input type="email" placeholder="email" required name="e1"></th>
+          </tr>
+          <tr>
+              <th>
+                  <textarea placeholder="messages" name="m1"></textarea>
+              </th>
+          </tr>
+          <tr>
+              <th style="text-align: center">
+                  <button type="submit">submit</button>
+              </th>
+          </tr>
+      </table>
+      </form>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

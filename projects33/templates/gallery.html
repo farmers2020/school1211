@@ -1,0 +1,209 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Gallery photos</title>
+  </head>
+  <body>
+    {% include 'head.html' %}
+    {% include 'menu.html' %}
+   <div class="card bg-dark text-white">
+  <img src="{% static 'images/bys1.jpg'  %}" class="card-img" width="100%" height="600">
+  <div class="card-img-overlay">
+  </div>
+</div>
+    <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div align="center" class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           school function photos
+        </button>
+          <button class="btn btn-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         sports photos
+        </button>
+          <button class="btn btn-success collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          school workshop photos
+        </button>
+      </h2>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <div align="center" id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+      <h1 align="center" style="color: #ff730b;font-size: 100px"> school functions photos</h1>
+    <div  class="carousel-item active">
+      <img src="{% static 'pppsss/WhatsApp Image 2019-12-22 at 10.06.50 AM(2).jpeg'%}" width="800" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'pppsss/WhatsApp Image 2019-12-22 at 10.06.42 AM(1).jpeg' %}" width="800" height="300" >
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'pppsss/WhatsApp Image 2019-12-22 at 10.06.45 AM(2).jpeg' %}"width="800" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'pppsss/WhatsApp Image 2019-12-22 at 10.06.45 AM(2).jpeg' %}" width="800" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'pppsss/WhatsApp Image 2019-12-22 at 10.06.50 AM.jpeg' %}" width="800" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'function/36787315-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="800" height="300" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div>
+        <img src="{% static 'function/100_4055.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/20171121_225043.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/36787308-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/36787310-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/36787315-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/36787319-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/36787346-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/kharian-Annual-Function-6.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/maxresdefault.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/36787337-activities-at-a-school-function-at-littera-valley-school-shot-at-evening-hours-on-14-02-15-at-patna-.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/School-Function.jpg' %}" width="300" height="200">
+        <img src="{% static 'function/welcome-dance.jpg' %}" width="300" height="200">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+          <h1 align="center" style="font-size: 100px;color:#38ff8d"> school sports photos</h1>
+         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div align="center" class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'images/1.jpg'%}" width="500" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/2.jpg' %}" width="500" height="300" >
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/3.jpg' %}"width="500" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'images/4.jpg' %}" width="500" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'images/5.jpg' %}" width="500" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'sports/Sports1.jpg' %}" width="500" height="300" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div>
+        <img src="{% static 'sports/4.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/10.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/49f5684c55c9f6fdcf8abb88f379ee6f.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/634046-sports-ground.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/istockphoto-842480064-612x612.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/SportsDay-Blore-17-FI.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/Sports1.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/extra-curricular-1495529876-1.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/IMG_0636-1.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/IMG_6635.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/Picture-531.jpg' %}" width="300" height="200">
+         <img src="{% static 'sports/sport-day17-0002-1024x681.jpg' %}" width="300" height="200">
+        <img src="{% static 'sports/29.06.2017-and-sports-day-2017-160.jpg' %}" width="300" height="200">
+         <img src="{% static 'sports/sports-day-2016-82.jpg' %}" width="300" height="200">
+    </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+          <h1 align="center" style="font-size: 100px;color: #a95625"> school workshop photos </h1>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div  align="center" class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'workshop/stock-photo-education-children-technology-science-and-people-concept-group-of-happy-kids-building-robots-559829731.jpg'%}" width="500" height="300">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'workshop/stock-photo-education-children-technology-science-and-people-concept-group-of-happy-kids-with-d-printer-554621923.jpg' %}" width="500" height="300" >
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'workshop/stock-photo-education-children-technology-science-and-people-concept-group-of-happy-kids-with-laptop-573828889.jpg' %}"width="500" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'workshop/stock-photo-gadjievo-russia-march-the-boy-works-on-a-lathe-in-a-school-workshop-765824155.jpg' %}" width="500" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'workshop/stock-photo-girl-checking-circuit-board-with-multimeter-on-the-wooden-table-at-home-and-building-a-robot-as-a-1013238133.jpg' %}" width="500" height="300" >
+    </div>
+      <div class="carousel-item">
+      <img src="{% static 'workshop/stock-photo-teacher-with-kids-creative-arts-class-578570044.jpg' %}" width="500" height="300" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+           <img src="{% static 'workshop/stock-photo-teacher-with-kids-creative-arts-class-578570044.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-girl-checking-circuit-board-with-multimeter-on-the-wooden-table-at-home-and-building-a-robot-as-a-1013238133.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-gadjievo-russia-march-the-boy-works-on-a-lathe-in-a-school-workshop-765824155.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-education-children-technology-science-and-people-concept-group-of-happy-kids-with-laptop-573828889.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-group-of-kids-putting-a-kit-together-boys-and-girl-having-fun-in-the-workshop-after-school-1108861301.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-russia-krasnodar-june-little-girls-painting-ceramic-funny-gnome-sculptures-workshop-for-1431009449.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-teacher-with-student-in-metallurgy-workshop-288246359.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-vector-the-word-workshop-vector-banner-with-the-text-colored-rainbow-345659471.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-helpful-tool-upbeat-teenage-boy-looking-at-a-chemical-flask-through-a-magnifying-glass-while-1059655772.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-teacher-with-kids-creative-arts-class-578570044.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-vector-workshop-retro-logo-with-wrench-screwdriver-and-heraldic-ribbon-black-background-color-and-1049661476.jpg' %}" width="300" height="200">
+         <img src="{% static 'workshop/stock-photo-mexico-city-mexico-july-th-two-students-working-on-a-electronic-project-at-tech-school-702578356.jpg' %}" width="300" height="200">
+        <img src="{% static 'workshop/stock-photo-education-children-technology-science-and-people-concept-group-of-happy-kids-building-robots-559829731.jpg' %}" width="300" height="200">
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+    {% include 'aboutbody.html' %}
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

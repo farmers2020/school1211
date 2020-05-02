@@ -1,0 +1,91 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+      <link href="{% static 'css/image.css'  %}" rel="stylesheet">
+      <style>
+        @font-face
+        {
+            font-family: demo1;
+            src:url("{% static 'fonts/Sweet Hipster.ttf' %}");
+        }
+        h1
+        {
+            font-family: demo1;
+            font-size: 200px;
+            color:deeppink;
+            text-shadow:1px 2px 5px navy;
+        }
+
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>FACULTY RECORDS</title>
+  </head>
+  <body>
+  {% include 'adminhead.html' %}
+  {% include 'adminmenu.html' %}
+ <div class="card bg-dark text-white">
+  <img src="{% static 'images/facul.jpg' %}" width="100%" height="900" >
+  <div class="card-img-overlay">
+    <h1 class="card-title" align="center">FACULTY RECORDS</h1>
+    <table align="center"bgcolor="orange" border="2" cellpadding="10" cellspacing="10" >
+        {% if data %}
+        <tr bgcolor="#8b4513">
+            <td colspan="11" align="center"><h1 style="color: #f6ff70">ALL FACULTY RECORDS</h1></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width="300"  align="center"><strong>FACULTYNAME</strong></td>
+            <td width="200" align="center" ><strong>REGISTERNO</strong></td>
+            <td width="200"  align="center"><strong>GENDER</strong></td>
+            <td width="200"  align="center"><strong>ADDRESS</strong></td>
+            <td width="300"  align="center"><strong>DATEOFBIRTH</strong></td>
+            <td width="300"  align="center"><strong>DATEOFJOIN</strong></td>
+            <td width="200"  align="center"><strong>SUBJECT</strong></td>
+            <td width="300"  align="center"><strong>QUALIFICATION</strong></td>
+            <td width="200"  align="center"><strong>PHOTOS</strong></td>
+            <td width="200" align="center"><strong>UPDATE</strong></td>
+            <td width="200"  align="center"><strong>DELETE</strong></td>
+        </tr>
+            {% else %}
+            <h1>data is not available</h1>
+    {% endif %}
+    {% for x in data %}
+        <tr style="background: white" >
+            <td align="center" style="color: black"><strong>{{ x.name }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.Regno }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.gender }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.address }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.dob }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.doj }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.subject }}</strong></td>
+            <td align="center" style="color: black"><strong>{{ x.quali }}</strong></td>
+            <td align="center" style="color: black"><img src="{{ x.image.url }}" width="150" height="100"></td>
+            <td align="center" style="color: black">
+                <a href="{% url 'fupdate' %}?regno={{ x.Regno }}">
+                <h2 style="color: black">update</h2>
+                </a></td>
+        </td>
+        <td align="center" style="color: black"> <a href="{% url 'fdelete' %}?regno={{ x.Regno }}">DELETE </a></td>
+
+        </tr>
+
+        </tr>
+    {% endfor %}
+    </table>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

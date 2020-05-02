@@ -1,0 +1,108 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+<link href="{% static 'css/image.css'  %}" rel="stylesheet">
+      <style>
+        @font-face
+        {
+            font-family: demo1;
+            src:url("{% static 'fonts/Sweet Hipster.ttf' %}");
+        }
+        h1
+        {
+            font-family: demo1;
+            font-size: 200px;
+            color:deeppink;
+            text-shadow:1px 2px 5px navy;
+        }
+
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>update faculty records</title>
+  </head>
+  <body>
+  {% include 'adminhead.html' %}
+  {% include 'adminmenu.html' %}
+  <div class="card bg-dark text-white">
+  <img src="{%  static 'images/pexels-photo-301926.jpg' %}" width="100%" height="900" >
+  <div class="card-img-overlay">
+   <form action="{% url 'save2' %}" method="post" enctype="multipart/form-data">
+       {% csrf_token %}
+      <table align="center" border="2" cellspacing="10" cellpadding="10" style="border-radius: 10px" bgcolor="orange">
+          <tr>
+              <th style="background: limegreen;text-align: center " colspan="2">FACULTY UPDATE </th>
+          </tr>
+      <tr>
+          <th align="center" style="color:black">
+              STUDENT NAME:</th><th> <input type="text" value="{{ data.name }}"name="name">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              REGISTER NO:</th><th><input type="number" readonly value="{{ data.Regno }}"name="regno">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              GENDER:</th><th><input type="text" value="{{ data.gender }}"name="ra">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              EXPERIENCE:</th><th><input type="number" readonly value="{{ data.experience }}"name="exp">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              ADDRESS:</th><th><textarea value="{{ data.address }}"name="add"></textarea>
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              DATE OF BIRTH:</th><th><input type="date" value="{{ data.dob }}"name="dob">
+          </th>
+                <tr>
+          <th align="center" style="color:black">
+              QUALIFICATION:</th><th><input type="text" value="{{ data.quali }}"name="qual">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              DATE OF JOINING:</th><th><input type="date" value="{{ data.doj }}"name="doj">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black">
+              SUBJECT:</th><th><input type="text" value="{{ data.subject }}"name="sub">
+          </th>
+      </tr>
+
+      <tr>
+          <th align="center" style="color:black">
+              IMAGES:</th><th><input type="file" value="{{ data.image }}"name="photo">
+          </th>
+      </tr>
+           <tr>
+          <th align="center" style="color:black;text-align: center" colspan="2">
+            <button type="submit" >save</button>
+          </th>
+      </tr>
+   </table>
+       </form>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

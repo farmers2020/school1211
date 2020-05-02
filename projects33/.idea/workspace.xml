@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e8d3e24-5178-4102-85b7-0ecd7ca70cbe" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1329747252">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="app33_faculty" value="5" />
+          <entry key="app33_otp" value="2" />
+          <entry key="app33_students" value="2" />
+          <entry key="app33_uploadnotificationmodel" value="1" />
+          <entry key="html" value="21" />
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="10" />
+          <entry key="HTML" value="21" />
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="12" />
+          <entry key="html" value="1010" />
+          <entry key="py" value="1991" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1010" />
+          <entry key="Python" value="1991" />
+          <entry key="Scratch" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects33/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1971">
+              <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app33/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="524" lean-forward="true" selection-start-line="524" selection-end-line="524" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <marker date="1587899086242" expanded="true" signature="12283:12286" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://a759d5ba-8a2e-4f13-9ac1-f30f605974fe/schema/main/table/app33_faculty">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/updateforgetpassword.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1890">
+              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://a759d5ba-8a2e-4f13-9ac1-f30f605974fe/schema/main/table/app33_otp">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app33/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/otpvalidation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1566">
+              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/userinputpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="10" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects33/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3483">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/forgetpassword.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2133">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/passstudnets.html" />
+        <option value="$PROJECT_DIR$/templates/uploadnotif.html" />
+        <option value="$PROJECT_DIR$/templates/notification.html" />
+        <option value="$PROJECT_DIR$/templates/adminmenu.html" />
+        <option value="$PROJECT_DIR$/templates/facultylogin.html" />
+        <option value="$PROJECT_DIR$/templates/facultmenu.html" />
+        <option value="$PROJECT_DIR$/templates/studentsmenu.html" />
+        <option value="$PROJECT_DIR$/templates/flogin.html" />
+        <option value="$PROJECT_DIR$/projects33/settings.py" />
+        <option value="$PROJECT_DIR$/templates/userinputpage.html" />
+        <option value="$PROJECT_DIR$/app33/models.py" />
+        <option value="$PROJECT_DIR$/templates/otpvalidation.html" />
+        <option value="$PROJECT_DIR$/templates/updateforgetpassword.html" />
+        <option value="$PROJECT_DIR$/projects33/urls.py" />
+        <option value="$PROJECT_DIR$/templates/forgetpassword.html" />
+        <option value="$PROJECT_DIR$/app33/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectId" id="1Y8CP07qlGkO8a56OLgzwGKlgrC" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eformingsystem1" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\django projects2\projects33\app33\static\images" />
+      <recent name="F:\django projects2\projects33\templates" />
+      <recent name="F:\django projects\projects33\app33\static\pppsss" />
+      <recent name="F:\django projects\projects33\app33\static" />
+      <recent name="F:\django projects\projects33\app33\static\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="projects33" type="Python.DjangoServer" factoryName="Django server">
+      <module name="projects33" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="projects33.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e8d3e24-5178-4102-85b7-0ecd7ca70cbe" name="Default Changelist" comment="" />
+      <created>1566226030452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566226030452</updated>
+      <workItem from="1566226035823" duration="1269000" />
+      <workItem from="1566231818051" duration="21334000" />
+      <workItem from="1566311505565" duration="4874000" />
+      <workItem from="1566331836170" duration="2937000" />
+      <workItem from="1566353463111" duration="1111000" />
+      <workItem from="1566361598168" duration="1578000" />
+      <workItem from="1566366932145" duration="634000" />
+      <workItem from="1566383757609" duration="1815000" />
+      <workItem from="1566447280365" duration="2453000" />
+      <workItem from="1566451658657" duration="1851000" />
+      <workItem from="1566467380075" duration="13749000" />
+      <workItem from="1566489423538" duration="12380000" />
+      <workItem from="1566536158635" duration="19845000" />
+      <workItem from="1566640991482" duration="23970000" />
+      <workItem from="1566701476215" duration="1891000" />
+      <workItem from="1566719022215" duration="12358000" />
+      <workItem from="1566748736981" duration="3379000" />
+      <workItem from="1566811328632" duration="12096000" />
+      <workItem from="1566900176956" duration="3966000" />
+      <workItem from="1566983604491" duration="1416000" />
+      <workItem from="1567096725931" duration="2794000" />
+      <workItem from="1567245781369" duration="1886000" />
+      <workItem from="1567271679475" duration="599000" />
+      <workItem from="1567404985089" duration="1121000" />
+      <workItem from="1567502434696" duration="526000" />
+      <workItem from="1567599541481" duration="1661000" />
+      <workItem from="1568052658547" duration="7000" />
+      <workItem from="1568052697266" duration="27000" />
+      <workItem from="1568052773715" duration="6000" />
+      <workItem from="1568053266746" duration="26000" />
+      <workItem from="1568053361118" duration="12000" />
+      <workItem from="1568053424468" duration="15000" />
+      <workItem from="1568055265456" duration="5000" />
+      <workItem from="1568134606074" duration="43000" />
+      <workItem from="1568134680921" duration="41000" />
+      <workItem from="1568135000027" duration="61000" />
+      <workItem from="1568135103351" duration="3000" />
+      <workItem from="1568135243095" duration="128000" />
+      <workItem from="1568135410889" duration="1996000" />
+      <workItem from="1568203615612" duration="1675000" />
+      <workItem from="1568284639268" duration="3517000" />
+      <workItem from="1568290162844" duration="656000" />
+      <workItem from="1568358436418" duration="534000" />
+      <workItem from="1568437620922" duration="45000" />
+      <workItem from="1568438217142" duration="1196000" />
+      <workItem from="1569267515288" duration="644000" />
+      <workItem from="1569912765615" duration="807000" />
+      <workItem from="1570097211687" duration="1706000" />
+      <workItem from="1570109505457" duration="740000" />
+      <workItem from="1570154951017" duration="595000" />
+      <workItem from="1570186253957" duration="4345000" />
+      <workItem from="1570254562341" duration="4373000" />
+      <workItem from="1570325394155" duration="1645000" />
+      <workItem from="1570431619944" duration="3862000" />
+      <workItem from="1570451242703" duration="2756000" />
+      <workItem from="1570466440560" duration="1217000" />
+      <workItem from="1570525171412" duration="1370000" />
+      <workItem from="1570554126124" duration="598000" />
+      <workItem from="1570596590408" duration="593000" />
+      <workItem from="1570628464528" duration="20000" />
+      <workItem from="1571387140893" duration="3471000" />
+      <workItem from="1571476897368" duration="520000" />
+      <workItem from="1571643966253" duration="307000" />
+      <workItem from="1571649415809" duration="624000" />
+      <workItem from="1572072969394" duration="4350000" />
+      <workItem from="1572414346640" duration="1284000" />
+      <workItem from="1572427466474" duration="663000" />
+      <workItem from="1576741141090" duration="6232000" />
+      <workItem from="1576773042574" duration="1406000" />
+      <workItem from="1576914459347" duration="631000" />
+      <workItem from="1577034054439" duration="3517000" />
+      <workItem from="1577092443908" duration="5474000" />
+      <workItem from="1577119385331" duration="3750000" />
+      <workItem from="1577205659659" duration="4431000" />
+      <workItem from="1577290732944" duration="137000" />
+      <workItem from="1577698170201" duration="1161000" />
+      <workItem from="1577721281912" duration="594000" />
+      <workItem from="1577863816241" duration="58000" />
+      <workItem from="1577899612922" duration="1484000" />
+      <workItem from="1578140415885" duration="1085000" />
+      <workItem from="1578199365634" duration="2095000" />
+      <workItem from="1578231762083" duration="1423000" />
+      <workItem from="1578416917935" duration="35000" />
+      <workItem from="1578477545232" duration="1634000" />
+      <workItem from="1578503094147" duration="5655000" />
+      <workItem from="1578561825570" duration="26000" />
+      <workItem from="1578563996868" duration="722000" />
+      <workItem from="1578650757236" duration="472000" />
+      <workItem from="1578651268863" duration="41000" />
+      <workItem from="1578651989579" duration="211000" />
+      <workItem from="1578672469565" duration="1268000" />
+      <workItem from="1579585640915" duration="872000" />
+      <workItem from="1580146897766" duration="655000" />
+      <workItem from="1580375470700" duration="4201000" />
+      <workItem from="1580443200201" duration="74000" />
+      <workItem from="1580536417798" duration="1425000" />
+      <workItem from="1581585141285" duration="723000" />
+      <workItem from="1581587912868" duration="1000" />
+      <workItem from="1582314813550" duration="1792000" />
+      <workItem from="1582353110638" duration="3515000" />
+      <workItem from="1582391522394" duration="3323000" />
+      <workItem from="1582955127651" duration="15331000" />
+      <workItem from="1582990962609" duration="10580000" />
+      <workItem from="1583042519655" duration="22395000" />
+      <workItem from="1583095092230" duration="2226000" />
+      <workItem from="1583138875784" duration="7704000" />
+      <workItem from="1583166595653" duration="9017000" />
+      <workItem from="1583210914312" duration="1738000" />
+      <workItem from="1583225646124" duration="104000" />
+      <workItem from="1583239994571" duration="675000" />
+      <workItem from="1583256417077" duration="1273000" />
+      <workItem from="1583779681905" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.10805369" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10805369" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1583256462088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583256462088" />
+    <state width="1493" height="193" key="GridCell.Tab.0.bottom" timestamp="1583225752893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583225752893" />
+    <state width="1493" height="193" key="GridCell.Tab.0.center" timestamp="1583225752889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583225752889" />
+    <state width="1493" height="193" key="GridCell.Tab.0.left" timestamp="1583225752889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583225752889" />
+    <state width="1493" height="193" key="GridCell.Tab.0.right" timestamp="1583225752893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583225752893" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1582993171603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1582993171603" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1583256418308">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583256418308" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583001705017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583001705017" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/showstudents.html</url>
+          <line>65</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/passstudnets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="44" column="117" selection-start-line="44" selection-start-column="117" selection-end-line="44" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a759d5ba-8a2e-4f13-9ac1-f30f605974fe/schema/main/table/app33_uploadnotificationmodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/welocome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/uploadnotif.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/facultylogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/find.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlogin.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/changepassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/serach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/studentsmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a759d5ba-8a2e-4f13-9ac1-f30f605974fe/schema/main/table/app33_students">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/facultmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects33/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a759d5ba-8a2e-4f13-9ac1-f30f605974fe/schema/main/table/app33_faculty">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/updateforgetpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a759d5ba-8a2e-4f13-9ac1-f30f605974fe/schema/main/table/app33_otp">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app33/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/otpvalidation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userinputpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="10" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects33/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/forgetpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2133">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app33/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="524" lean-forward="true" selection-start-line="524" selection-end-line="524" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1587899086242" expanded="true" signature="12283:12286" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
